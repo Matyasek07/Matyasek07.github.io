@@ -6,7 +6,8 @@ font-weight: 400;
 
 img { 
     width: 300px;
-    border-radius: 10% 10% 10% 10%;
+    border-radius: 10%
+
 }
 
 body {
@@ -23,3 +24,67 @@ a {
 a:hover{
     color: red;
     }    
+
+nav{
+    background-color: rgb(68, 68, 68);
+}
+nav ul h1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+
+}
+
+<nav>
+        <ul>
+            <li><a href="https://supercell.com/en/games/clashroyale/" target="blank">Supercell website</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Supercell(company)" target="_blank">Více Supercell info</a></li>
+            <li><a href="https://store.supercell.com/en/" target="_blank">Supercell store</a></li>
+        </ul>
+    </nav>
+[12:47]matyas3k: nav{
+    background-color: rgb(68, 68, 68);
+}
+nav ul {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 120px;
+}
+
+nav ul li{
+    width: 300px;
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    white-space: nowrap;
+    margin: 0 auto;
+    padding: 0 15px;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    border-bottom: 2px solid black;
+    color: black;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
