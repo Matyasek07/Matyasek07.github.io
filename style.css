@@ -1,49 +1,40 @@
 h1 {
-color: red;
-font-size: 40px;
-font-weight: 400;
-}
-
-img { 
-    width: 300px;
-    border-radius: 10%
-
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 400;
 }
 
 body {
-    background-color: rgb(181, 195, 199);
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    padding: 20px;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  background-color: rgb(103, 103, 103);
 }
 
-a {
-    color: rgb(9, 175, 34);
+img { 
+    width: 300px; 
+    border-radius: 15px; 
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    }   
+
+a {   
+    color:rgba(10, 230, 50, 0.81);
+    border: 3px solid black;
+    border-box: (10px);
+    border-radius: 10px;
+    padding: 5px; 
     }
-
-a:hover{
-    color: red;
-    }    
-
 nav{
-    background-color: rgb(68, 68, 68);
-}
-nav ul h1{
-    text-align: center;
-    color: white;
-    font-size: 30px;
-
-}
-
-<nav>
-        <ul>
-            <li><a href="https://supercell.com/en/games/clashroyale/" target="blank">Supercell website</a></li>
-            <li><a href="https://en.wikipedia.org/wiki/Supercell(company)" target="_blank">Více Supercell info</a></li>
-            <li><a href="https://store.supercell.com/en/" target="_blank">Supercell store</a></li>
-        </ul>
-    </nav>
-[12:47]matyas3k: nav{
-    background-color: rgb(68, 68, 68);
+    background-color: rgba(59, 57, 57, 0.134);
 }
 nav ul {
   display: flex;
@@ -65,26 +56,28 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 25px;
     white-space: nowrap;
-    margin: 0 auto;
+    margin-right: 20px;
     padding: 0 15px;
     font-weight: bold;
 }
 nav ul li a:hover{
     border-bottom: 2px solid black;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
 
-p {
+p { 
     text-align: center;
-}
-h1 {
-    text-align: center;
+    color:rgb(255, 255, 255)
 }
 
 h2 {
     text-align: center;
+}
+
+ul {
+    color: rgb(255, 255, 255)
 }
