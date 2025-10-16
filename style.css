@@ -75,13 +75,6 @@ p {
   display: inline-block;
 }
 
-.btn:hover {
-  background: #ffca3a;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(255, 209, 102, 0.4);
-}
-
-/* === ODKAZY === */
 a {
   color: var(--accent);
   text-decoration: none;
@@ -93,7 +86,6 @@ a:hover {
   color: #ffe084;
 }
 
-/* === PATIČKA === */
 footer {
   background: rgba(255, 255, 255, 0.03);
   padding: 30px 20px;
@@ -130,8 +122,8 @@ footer a:hover {
   color: #7f91a6;
 }
 
-/* === RESPONSIVITA === */
-@media (max-width: 640px) {
+
+  @media (max-width: 640px) {
   header h1 {
     font-size: 1.4rem;
   }
